@@ -32,7 +32,7 @@ An update on visualizing Bayesian updating
 ----------
 Corey Chivers's [following post](http://bayesianbiologist.com/2012/08/17/an-update-on-visualizing-bayesian-updating/):
 
-A while ago I wrote a post with some R code to visualize the updating of a beta distribution as the outcome of Bernoulli trials are observed. The code provided a single plot of this process, with all the curves overlayed on top of one another. Then John Myles White (co-author of Machine Learning for Hackers) piped up on twitter and said that he’d like to see it as an animation. Challenge accepted – and with an additional twist. ([**bayesian_updating_video.R**](https://raw.github.com/boboppie/bayesian_bits/master/bayesian_updating_video.R))
+A while ago I wrote a post with some R code to visualize the updating of a beta distribution as the outcome of Bernoulli trials are observed. The code provided a single plot of this process, with all the curves overlayed on top of one another. Then John Myles White (co-author of Machine Learning for Hackers) piped up on twitter and said that he’d like to see it as an animation. Challenge accepted – and with an additional twist. ([**bayesian_updating_video.R**](https://raw.github.com/boboppie/bayesian_bits/master/bayesian_updating_video.R) or [gist](https://gist.github.com/3373348))
 
 The video shows how two observers who approach the problem with different beliefs (priors) converge toward the same conclusion about the value of the unknown parameter after making enough observations. Watch it on [Youtube](http://www.youtube.com/watch?v=rUoJvogN7qQ).
 
