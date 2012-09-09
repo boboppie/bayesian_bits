@@ -14,7 +14,7 @@ One of the most straightforward examples of how we use Bayes to update our belie
 
 Probably the most commonly thought of example is that of a coin toss. The outcome of tossing a coin can only be either heads, or tails (barring the case that the coin lands perfectly on edge), but there are many other real world examples of Bernoulli processes. In manufacturing, a widget may come off of the production line either working, or faulty.  We may wish to know the probability that a given widget will be faulty.  We can solve this using Bayesian updating.
 
-I’ve put together this little piece of R code to help visualize how our beliefs about the probability of success (heads, functioning widget, etc) are updated as we observe more and more outcomes.
+I’ve put together this little piece of R code ([**bayesian_binomial_updating.R**](https://raw.github.com/boboppie/bayesian_bits/master/bayesian_binomial_updating.R)) to help visualize how our beliefs about the probability of success (heads, functioning widget, etc) are updated as we observe more and more outcomes.
 
 The result is a plot of posterior (which become the new prior) distributions as we make more and more observations from a Bernoulli process.
 
