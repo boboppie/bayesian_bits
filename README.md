@@ -38,3 +38,12 @@ The video shows how two observers who approach the problem with different belief
 
 Screenshot:
 ![ bayesian_updating_video_screenshot](https://raw.github.com/boboppie/bayesian_bits/master/plots/bayesian_updating_video_screenshot.png)
+
+Introduction to Bayesian thinking
+----------
+In response to Corey's last post, Cyrille Rossant has pointted to his own [post](http://cyrille.rossant.net/introduction-to-bayesian-thinking/) on Bayesian and frequentist interpretations of a Bernoulli process. ([**BernoulliProcessSimulation.py**](https://raw.github.com/boboppie/bayesian_bits/master/BernoulliProcessSimulation.py)) 
+
+He has also made a nice video including bayesian as well as frequentist's aspect of the posterior distribution updating. Watch it on [Youtube](http://www.youtube.com/watch?v=jtqfcg23Ors).
+
+Screenshot:
+![ BernoulliProcessSimulationScreenshot](https://raw.github.com/boboppie/bayesian_bits/master/plots/BernoulliProcessSimulationScreenshot.png)
