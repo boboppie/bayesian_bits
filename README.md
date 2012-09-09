@@ -21,3 +21,20 @@ The result is a plot of posterior (which become the new prior) distributions as 
 ![bayesian_binomial_updating] (https://raw.github.com/boboppie/bayesian_bits/master/plots/bayesian_binomial_updating.png)
 
 With each new observation, the posterior distribution is updated according to Bayes rule. You can change *p* to see how belief changes for low, or high probability outcomes, and *N* for to see how belief about *p* asymptotes to the true value after many observations.
+
+In the comment by mamluk:
+
+It looks like it might be helpful showing people how Bayesian updating works as a process. It’s often nice to show how different priors can affect the final result, so I added some code to make the Beta parameters variables that can be specified when calling the function. ([**bayesian_binomial_updating_v2.R**](https://raw.github.com/boboppie/bayesian_bits/master/bayesian_binomial_updating_v2.R))
+
+![bayesian_binomial_updating_v2] (https://raw.github.com/boboppie/bayesian_bits/master/plots/bayesian_binomial_updating_v2.png)
+
+An update on visualizing Bayesian updating
+----------
+Corey Chivers's [following post](http://bayesianbiologist.com/2012/08/17/an-update-on-visualizing-bayesian-updating/):
+
+A while ago I wrote a post with some R code to visualize the updating of a beta distribution as the outcome of Bernoulli trials are observed. The code provided a single plot of this process, with all the curves overlayed on top of one another. Then John Myles White (co-author of Machine Learning for Hackers) piped up on twitter and said that he’d like to see it as an animation. Challenge accepted – and with an additional twist. ([**bayesian_updating_video.R**](https://raw.github.com/boboppie/bayesian_bits/master/bayesian_updating_video.R))
+
+The video shows how two observers who approach the problem with different beliefs (priors) converge toward the same conclusion about the value of the unknown parameter after making enough observations. Watch it on [Youtube](http://www.youtube.com/watch?v=rUoJvogN7qQ).
+
+Screenshot:
+![ bayesian_updating_video_screenshot](https://raw.github.com/boboppie/bayesian_bits/master/plots/bayesian_updating_video_screenshot.png)
