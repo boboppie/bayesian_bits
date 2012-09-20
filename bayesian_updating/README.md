@@ -18,7 +18,7 @@ I’ve put together this little piece of R code ([**bayesian_binomial_updating.R
 
 The result is a plot of posterior (which become the new prior) distributions as we make more and more observations from a Bernoulli process.
 
-![bayesian_binomial_updating] (https://raw.github.com/boboppie/bayesian_bits/master/plots/bayesian_binomial_updating.png)
+![bayesian_binomial_updating] (https://raw.github.com/boboppie/bayesian_bits/master/bayesian_updating/plots/bayesian_binomial_updating.png)
 
 With each new observation, the posterior distribution is updated according to Bayes rule. You can change *p* to see how belief changes for low, or high probability outcomes, and *N* for to see how belief about *p* asymptotes to the true value after many observations.
 
@@ -26,7 +26,7 @@ In the comment by mamluk:
 
 It looks like it might be helpful showing people how Bayesian updating works as a process. It’s often nice to show how different priors can affect the final result, so I added some code to make the Beta parameters variables that can be specified when calling the function. ([**bayesian_binomial_updating_v2.R**](https://raw.github.com/boboppie/bayesian_bits/master/bayesian_binomial_updating_v2.R))
 
-![bayesian_binomial_updating_v2] (https://raw.github.com/boboppie/bayesian_bits/master/plots/bayesian_binomial_updating_v2.png)
+![bayesian_binomial_updating_v2] (https://raw.github.com/boboppie/bayesian_bits/master/bayesian_updating/plots/bayesian_binomial_updating_v2.png)
 
 An update on visualizing Bayesian updating
 ----------
@@ -37,7 +37,7 @@ A while ago I wrote a post with some R code to visualize the updating of a beta 
 The video shows how two observers who approach the problem with different beliefs (priors) converge toward the same conclusion about the value of the unknown parameter after making enough observations. Watch it on [Youtube](http://www.youtube.com/watch?v=rUoJvogN7qQ).
 
 Screenshot:
-![ bayesian_updating_video_screenshot](https://raw.github.com/boboppie/bayesian_bits/master/plots/bayesian_updating_video_screenshot.png)
+![ bayesian_updating_video_screenshot](https://raw.github.com/boboppie/bayesian_bits/master/bayesian_updating/plots/bayesian_updating_video_screenshot.png)
 
 Introduction to Bayesian thinking
 ----------
@@ -46,4 +46,4 @@ In response to Corey's last post, Cyrille Rossant has pointted to his own [post]
 He has also made a nice video including bayesian as well as frequentist's aspect of the posterior distribution updating. Watch it on [Youtube](http://www.youtube.com/watch?v=jtqfcg23Ors).
 
 Screenshot:
-![ BernoulliProcessSimulationScreenshot](https://raw.github.com/boboppie/bayesian_bits/master/plots/BernoulliProcessSimulationScreenshot.png)
+![ BernoulliProcessSimulationScreenshot](https://raw.github.com/boboppie/bayesian_bits/master/bayesian_updating/plots/BernoulliProcessSimulationScreenshot.png)
