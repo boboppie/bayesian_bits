@@ -3,7 +3,7 @@ Hidden Markov Model
 
 [Python Hidden Markov Model](http://www.cs.colostate.edu/~hamiltom/code.html)
 ----------
-This module (hmm.py) provides an implementation by [Hamiltom](http://www.cs.colostate.edu/~hamiltom/) of a hidden Markov model (HMM) for discrete observation variables. The module was written with two requirements
+[hmm.py](https://raw.github.com/boboppie/bayesian_bits/master/hmm/hmm.py) provides an implementation by [Hamiltom](http://www.cs.colostate.edu/~hamiltom/) of a hidden Markov model (HMM) for discrete observation variables. The module was written with two requirements
 
 1. Easy-to-follow code for teaching
 2. Ability to handle large datasets
@@ -25,7 +25,7 @@ References
 
 [Laplacian Smoother](https://bitbucket.org/les2/aiclass/src)
 ----------
-Implementation of the Laplacian smoother discussed in the [Stanford AI class](https://www.ai-class.com/) by Lloyd Smith.
+[Smooth.py](https://raw.github.com/boboppie/bayesian_bits/master/hmm/Smooth.py): Implementation of the Laplacian smoother discussed in the [Stanford AI class](https://www.ai-class.com/) by Lloyd Smith.
 
 ----------
 * https://www.ai-class.com/course/video/videolecture/138 (https://github.com/boboppie/stanford-ai-class/blob/master/11_HMMs_and_filters.md)
