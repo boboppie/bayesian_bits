@@ -47,12 +47,20 @@ Now the HMM questions: You have no idea about the underlying weather, and I give
 Solution:
 ----------
 Q0: Stationary distribution 
-P(R_i) = P(R_i-1), p(S_i) = 1 - P(R_i)
-P(c) = P(c|R)P(R) + P(c|S)P(S)
+* P(R_i) = P(R_i-1), p(S_i) = 1 - P(R_i)
+* P(c) = P(c|R)P(R) + P(c|S)P(S)
 
-Q1: P(R|c) = P(c|R)P(R)/P(c)
+Q1: 
+* P(R|c) = P(c|R)P(R)/P(c)
 
 Q2:
+
+Q3:
+
+Q4:
+
+Q5: http://en.wikipedia.org/wiki/Viterbi_algorithm
+
 ----------
 * https://www.ai-class.com/course/video/videolecture/138 (https://github.com/boboppie/stanford-ai-class/blob/master/11_HMMs_and_filters.md)
 * http://mintgene.wordpress.com/2012/01/28/hmm-implementation-of-viterbi-algorithm-durbin-1998-part-1/
